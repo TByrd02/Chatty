@@ -4,8 +4,8 @@ var volleyball = require('volleyball');
 var cors = require('cors'); 
 var port = process.env.PORT || 3000;
 var client = yelp.client(aipKey);
-var yelp = require('yelp-fusion');
-var yelpKey = "mJWIQAP0TRAqaq4HZpSwAXClm_nVV5xwTLlL3-B7JMNFb7AxvfoujRHVMHpn-hDpRQZae_aXwz4HBfcWcH4XoDLxWNpYNWF4JKC4p9brCL-BehswQ3uyICCc70hfW3Yx";
+// var yelp = require('yelp-fusion');
+// var yelpKey = "mJWIQAP0TRAqaq4HZpSwAXClm_nVV5xwTLlL3-B7JMNFb7AxvfoujRHVMHpn-hDpRQZae_aXwz4HBfcWcH4XoDLxWNpYNWF4JKC4p9brCL-BehswQ3uyICCc70hfW3Yx";
 
 // lets system now that JSON is to be used
 app.use(express.json());
