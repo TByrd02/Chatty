@@ -78,7 +78,7 @@ if(req.body.queryResult.action == "input.get_country"){
             if(error){
                 res.json({"fulfillmentText": "Sorry, we are having some issues grabbing the weather. Please try again."});
             }
-                 chat += "Temperature in " + name + " is " + temp + " degrees." + " With " +  description + " and a high of " + high+ " degrees " + " and a low of " + low  + " degrees. " +" Would you like to see some restaurants in "+ name +" or surrounding cities?";
+                 chat += "Temperature in " + name + " is " + temp + " degrees." + " With " +  description + " and a high of " + high+ " degrees " + " and a low of " + low  + " degrees. Try another city or country."
                 
                  //3 second delay for user getting weather
             setTimeout(function(){
