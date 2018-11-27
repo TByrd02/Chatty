@@ -20,6 +20,8 @@
   "homepage": "https://github.com/TByrd02/Chatty#readme",
   "dependencies": {
     "cors": "^2.8.4",
-    "express": "^4.16.4"
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "volleyball": "^1.5.1"
   }
 }
